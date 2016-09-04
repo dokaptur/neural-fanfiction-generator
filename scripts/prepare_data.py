@@ -11,7 +11,7 @@ import sys
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('stories_dir', help='Directory containing stories.')
-    parser.add_argument('output_dir', help='Output directory for generated simulations.')
+    parser.add_argument('output_dir', help='Output directory for processed data.')
     parser.add_argument('vocabulary_size', help='Size of vocabulary to create.',
                         type=int)
     parser.add_argument('validation_set_size', help='Number of stories for validation set.',
